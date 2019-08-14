@@ -1,0 +1,98 @@
+.background{
+  background-image:url(https://armory.visualsoldiers.com/wp-content/uploads/2019/05/Pur-CSS-Rain.gif);
+}
+
+.crimson-text{
+  font-family: 'Crimson Text', serif;
+}
+.dancing-script{
+  font-family: 'Dancing Script', cursive;
+}
+.barlow-condensed{
+  font-family: 'Barlow Condensed', sans-serif;
+}
+.asap{
+  font-family: 'Asap', sans-serif;
+}
+.questrial{
+  font-family: 'Questrial', sans-serif;
+}
+.amatic-sc{
+  font-family: 'Amatic SC', cursive;
+}
+.news-cycle{
+  font-family: 'News Cycle', sans-serif;
+}
+.lexend{
+  font-family: 'Lexend Giga', sans-serif;
+}
+
+.long-cang{
+  font-family: 'Long Cang', cursive;
+}
+.righteous{
+  font-family: 'Righteous', cursive;
+}
+.kanit{
+  font-family: 'Kanit', sans-serif;
+}
+
+h1,.center{
+  padding: 8px;
+  text-align: center;
+  background: #;
+  color: black;
+}
+
+.w3-button {
+  width:150px
+}
+
+.fun-fact{
+  color:white;
+  padding: 8px;
+  text-align: center;
+  background-color:pink;
+
+}
+
+.pink{
+  background-color:pink;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  position: sticky;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: gray;
+}
+
+.active {
+  background-color: gray;
+}
+
+li {
+  border-right: 1px solid white;
+}
+
+li:last-child {
+  border-right: none;
+}

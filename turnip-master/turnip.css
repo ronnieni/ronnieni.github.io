@@ -1,0 +1,172 @@
+.crimson-text{
+  font-family: 'Crimson Text', serif;
+}
+.dancing-script{
+  font-family: 'Dancing Script', cursive;
+}
+.barlow-condensed{
+  font-family: 'Barlow Condensed', sans-serif;
+}
+.asap{
+  font-family: 'Asap', sans-serif;
+}
+.questrial{
+  font-family: 'Questrial', sans-serif;
+}
+.amatic-sc{
+  font-family: 'Amatic SC', cursive;
+}
+.news-cycle{
+  font-family: 'News Cycle', sans-serif;
+}
+.lexend{
+  font-family: 'Lexend Giga', sans-serif;
+}
+
+.long-cang{
+  font-family: 'Long Cang', cursive;
+}
+.righteous{
+  font-family: 'Righteous', cursive;
+}
+.kanit{
+  font-family: 'Kanit', sans-serif;
+}
+
+
+.background{
+  background-image:url(https://armory.visualsoldiers.com/wp-content/uploads/2019/05/Pur-CSS-Rain.gif)
+}
+
+.circle-container a {
+      display: block;
+    	position: absolute;
+    	top: 60%; left: 45%;
+    	margin: -0 auto;
+      display: block;
+      text-align: center;
+    }
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  position: sticky;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: gray;
+}
+
+.active {
+  background-color: gray;
+}
+
+li {
+  border-right: 1px solid white;
+}
+
+li:last-child {
+  border-right: none;
+}
+
+.button {
+  background-size:cover;
+  border: none;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  font-size: 16px;
+  margin: 4px 2px;
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  transition: transform .2s;
+}
+
+.button:hover{
+  -ms-transform: scale(1.5);
+  -webkit-transform: scale(1.5);
+  transform:scale(1.5);
+  z-index:100;
+  position:relative;
+}
+
+.circle-container img { display: block; width: 100%; text-align:center;}
+   .deg0 { transform: translate(12em); }
+   .deg45 { transform: rotate(45deg) translate(12em) rotate(-45deg); }
+   .deg90 { transform: rotate(90deg) translate(12em) rotate(-90deg); }
+   .deg135 { transform: rotate(135deg) translate(12em) rotate(-135deg); }
+   .deg180 { transform: translate(-12em); }
+   .deg225 { transform: rotate(225deg) translate(12em) rotate(-225deg); }
+   .deg270 { transform: rotate(270deg) translate(12em) rotate(-270deg); }
+   .deg315 { transform: rotate(315deg) translate(12em) rotate(-315deg); }
+
+/*food*/
+.middleButton{
+  background-image: url(https://media1.giphy.com/media/30u0K0Albaf04/giphy.gif);
+}
+.topButton {
+  background-image: url(https://66.media.tumblr.com/103b7c613e3f41bbe1b1316dc547b42a/tumblr_poflgx0khk1r0foog_500.gif);
+}
+
+/* water */
+.topRightButton {
+  background-image: url(https://media1.tenor.com/images/38dfbfa13e4e457aa69e2900302dfb75/tenor.gif?itemid=11752258);
+  position: relative;
+}
+
+/* carbpn */
+.rightButton {
+  background-image: url(https://media1.tenor.com/images/21a0430a49b95869a7493793cfc09ed4/tenor.gif?itemid=5833497);
+  position: relative;
+}
+
+/* living conditions */
+.bottomRightButton {
+  background-image: url(https://media1.tenor.com/images/2057c06f9fcf3331b6045c86e97424e8/tenor.gif?itemid=12388177);
+  position: relative;
+}
+
+/* energy */
+.bottomButton {
+  background-image: url(https://monarchastrology.com/wp-content/uploads/2017/06/tumblr_orumi6ml6h1shdhdjo1_540.gif);
+  position: relative;
+}
+
+/* clothing */
+.bottomLeftButton {
+  background-image: url(https://i.pinimg.com/originals/9e/0a/b7/9e0ab7f17cfe518471980c2747d63669.gif);
+  position: relative;
+}
+
+/* transportation */
+.leftButton {
+  background-image: url(http://giphygifs.s3.amazonaws.com/media/KEVODnr6kaJws/giphy.gif);
+  position: relative;
+}
+
+/* plastic */
+.topLeftButton {
+  background-image: url(https://data.whicdn.com/images/288428701/original.gif);
+}
+
+.shadow{
+  text-shadow: 2px 2px #ffffff;
+}
+
