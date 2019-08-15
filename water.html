@@ -1,50 +1,29 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <link rel="stylesheet" href="clothing.css">
+  <link rel="stylesheet" href="water.css">
   <link href="https://fonts.googleapis.com/css?family=Kanit|Lexend+Giga|Long+Cang|Righteous&display=swap" rel="stylesheet">
   <title>Turnip</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-
-  <style>
-  #result-text {
-    width: 100%;
-    padding: 50px 0;
-    text-align: center;
-    background-color: lightblue;
-    margin-top: 20px;
-  }
-  </style>
-  <script type="text/javascript">
-    function result() {
-      var x = document.getElementById("result-text");
-      if (x.style.display === "none") {
-        x.style.display = "block";
-      } else {
-        x.style.display = "none";
-      }
-    }
-  </script>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 </head>
 
 <body class="background help">
 <!-- nav bar -->
+<h3 class="fun-fact">°˖✧Fun Fact!✧˖°
+<h4 class="kanit">Thirsty crops, such as lettuce, take up most of the water supply on a farm. This means that it will take much more water to operate a farm if it grows crops like rice and lettuce Σ(°ロ°)</h4>
   <ul>
-   <li class="active questrial"><a href="turnip.html">Home</a></li>
-   <li class=questrial><a href="tips.html">Tips</a></li>
-   <li class=questrial><a href="games.html">Turnip</a></li>
+   <li class="active questrial"><a href="https://ronnieni.github.io/turnip/index.html">Home</a></li>
+   <li class=questrial><a href="tips.html">Turnip</a></li>
+   <li class=questrial><a href="ref.html">References</a></li>
    <li style="float:right"><a class="questrial" href="about.html">About</a></li>
   </ul>
 
   <p>
-    <h1 class=righteous><strong>Water 🌊</strong></h1>
-    <h3 class=center><strong>What does your water footprint look like?</strong></h3>
+    <h1 class=righteous><strong>Water 🌧️</strong></h1>
+    <h3 class=center><strong>Water is great! But to what extent?</strong></h3>
   </p>
-
-  <h3 class=fun-fact><u>Fun Fact!</u></h3>
-  <h4 class="kanit"> Thirsty crops, such as lettuce, take up most of the water supply on a farm. This means that it will take much more water to operate a farm if it grows crops like rice and lettuce Σ(°ロ°)</h4>
-  <h3 class=pink><font color=pink>j</font></h3>
   <div class=center>
     <img src="https://media.giphy.com/media/DJJXHt23CAHHa/giphy.gif" align=center>
   </div>
@@ -52,32 +31,87 @@
 
   <p>
     <h2>How long do you shower for?</h2>
-    <button class="w3-button w3-hover-red" onclick="result()">Less than 15 minutes</button>
-    <button class="w3-button w3-hover-orange" onclick="result()">15 minutes</button>
-    <button class="w3-button w3-hover-yellow" onclick="result()">30 minutes</button>
-    <button class="w3-button w3-hover-green" onclick="result()">One hour</button>
-    <button class="w3-button w3-hover-green" onclick="result()">Over an hour</button>
+    <button class="w3-btn w3-hover-red btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseExample1" aria-expanded="false" aria-controls="collapseExample1">Less than 10 minutes.</button>
+    <div class="collapse" id="collapseExample1">
+      <div class="card card-body">
+        Wow! Shorter showwers mean less water waste and less water being used. Good job!
+      </div>
+    </div>
+    <button class="w3-btn w3-hover-orange btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseExample2" aria-expanded="false" aria-controls="collapseExample2">10 minutes.</button>
+    <div class="collapse" id="collapseExample2">
+      <div class="card card-body">
+      Wow! Shorter showwers mean less water waste and less water being used. Good job!
+      </div>
+    </div>
+    <button class="w3-btn w3-hover-yellow btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseExample3" aria-expanded="false" aria-controls="collapseExample3">15 minutes.</button>
+    <div class="collapse" id="collapseExample3">
+      <div class="card card-body">
+        Almost there! Shorter showwers mean less water waste and less water being used. Try turning off the water when you aren't explicitly using it!
+      </div>
+    </div>
+    <button class="w3-btn w3-hover-green btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseExample3" aria-expanded="false" aria-controls="collapseExample3">20 minutes.</button>
+    <div class="collapse" id="collapseExample3">
+      <div class="card card-body">
+        Keep track of what you're doing while you shower - You may be wasting a lot of water without even realizing it! Try turning off the water when you aren't explicitly using it!
+      </div>
+    </div>
+    <button class="w3-btn w3-hover-blue btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseExample3" aria-expanded="false" aria-controls="collapseExample3">Over 20 minutes.</button>
+    <div class="collapse" id="collapseExample3">
+      <div class="card card-body">
+        Keep track of what you're doing while you shower - You may be wasting a lot of water without even realizing it! Try turning off the water when you aren't explicitly using it, or getting a low-flow shower head.
+      </div>
+    </div>
   </p>
+
 
   <p>
     <h2>How much water do you drink everyday?</h2>
-    <button class="w3-button w3-hover-blue" onclick="result()">Less than 4 cups.</button>
-    <button class="w3-button w3-hover-purple" onclick="result()">4 cups.</button>
-    <button class="w3-button w3-hover-pink" onclick="result()">5 cups.</button>
-    <button class="w3-button w3-hover-pink" onclick="result()">6 cups.</button>
-    <button class="w3-button w3-hover-pink" onclick="result()">7 cups.</button>
-    <button class="w3-button w3-hover-pink" onclick="result()">8 cups.</button>
-    <button class="w3-button w3-hover-pink" onclick="result()">Over 8 cups.</button>
+    <button class="w3-btn w3-hover-purple btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseExample4" aria-expanded="false" aria-controls="collapseExample4">Over 8 cups.</button>
+    <div class="collapse" id="collapseExample4">
+      <div class="card card-body">
+        You only need about 8 cups of water a day! Drinking too much water is not only wasteful, but it could be bad for your health. Try to balance how much water you drink everyday.
+      </div>
+    </div>
+    <button class="w3-btn w3-hover-pink btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseExample5" aria-expanded="false" aria-controls="collapseExample5">8 cups.</button>
+    <div class="collapse" id="collapseExample5">
+      <div class="card card-body">
+        That's great! Drinking 8 cups a day is great for your health.
+      </div>
+    </div>
+    <button class="w3-btn w3-hover-black btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseExample5" aria-expanded="false" aria-controls="collapseExample5">Less than 8 cups.</button>
+    <div class="collapse" id="collapseExample5">
+      <div class="card card-body">
+        It is good to conserve water, but make sure you're drinking enough water everyday! Drinking 8 cups a day should be perfect.
+      </div>
+    </div>
   </p>
 
   <p>
     <h2> How long do you tend to leave the sink running?</h2>
-    <button class="w3-button w3-hover-white" onclick="result()">Less than 2 minutes.</button>
-    <button class="w3-button w3-hover-gray" onclick="result()">2 minutes.</button>
-    <button class="w3-button w3-hover-black" onclick="result()">3 minutes.</button>
-    <button class="w3-button w3-hover-brown" onclick="result()">4 minutes.</button>
-    <button class="w3-button w3-hover-brown" onclick="result()">5 minutes.</button>
-    <button class="w3-button w3-hover-brown" onclick="result()">Over 5 minutes.</button>
+    <button class="w3-btn w3-hover-white btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseExample6" aria-expanded="false" aria-controls="collapseExample6">Less than 2 minutes.</button>
+    <div class="collapse" id="collapseExample6">
+      <div class="card card-body">
+       That's great! Stay sustainable~!
+      </div>
+    </div>
+    <button class="w3-btn w3-hover-gray btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseExample7" aria-expanded="false" aria-controls="collapseExample7">2 minutes.</button>
+    <div class="collapse" id="collapseExample7">
+      <div class="card card-body">
+        That's great! Stay sustainable~!
+      </div>
+    </div>
+    <button class="w3-btn w3-hover-brown btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseExample8" aria-expanded="false" aria-controls="collapseExample8">More than 2 minutes.</button>
+    <div class="collapse" id="collapseExample8">
+      <div class="card card-body">
+        Turn off the faucet when you're not using it! There is no need to leave the water running if you're just brushing your teeth or soaping your hands.
+      </div>
+    </div>
   </p>
+
+
+</div>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </body>
 </html>
