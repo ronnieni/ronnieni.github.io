@@ -1,93 +1,104 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <link rel="stylesheet" href="energy.css">
-    <style>
-         ul {
-            list-style-type: none;
-            margin: 0;
-            padding: 0;
-         }
-         li {
-            border-bottom: 1px solid #555;
-            display: horizontal;
-         }
-      </style>
-  </head>
-  </head>
-  <body>
-    <body class="background help">
+<head>
+  <link rel="stylesheet" href="energy.css">
+  <link href="https://fonts.googleapis.com/css?family=Kanit|Lexend+Giga|Long+Cang|Righteous&display=swap" rel="stylesheet">
+  <title>Turnip</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+
+<body class="background help">
 <!-- nav bar -->
+<h3 class="fun-fact">°˖✧Fun Fact!✧˖°
+<h4 class="kanit">The US is the top producer of geothermal energy! Σ(°ロ°)</h4>
   <ul>
-   <li class="active questrial"><a href="turnip.html">Home</a></li>
-   <li class=questrial><a href="tips.html">Tips</a></li>
-   <li class=questrial><a href="games.html">Games</a></li>
+   <li class="questrial"><a href="index.html">Home</a></li>
    <li style="float:right"><a class="questrial" href="about.html">About</a></li>
   </ul>
 
-    <p>
-      <h1 class=righteous><strong>Energy</strong></h1>
-      <h3 class=center><strong>What is your Energy footprint?</strong></h3>
-      </p>
-
-      <h3 class=fun-fact><u>Fun Fact!</u></h3>
-      <h2 class="kanit"> Did you know to install one average size solar pannel it costs between 10,836 and 14,196 dollars.</h2>
-      <h2 class=pink><font color=pink>j</font></h2>
-      <div class=center>
-
-    <img src="https://i.pinimg.com/originals/ba/f6/c3/baf6c36251929d495545119d29b68847.gif" align=center>
-
-
-      </div>
-
-
-    </p>
-
-
+  <p>
+    <h1 class=righteous><strong>Energy ⚡ </strong></h1>
+    <h3 class=center><strong>How much light is too much?</strong></h3>
+  </p>
+  <div class=center>
+    <img src="https://media.giphy.com/media/zFajVrP5hoRpK/giphy.gif" align=center>
+  </div>
 
 
   <p>
     <h2>What type of energy do you use the most?</h2>
+    <button class="w3-btn w3-hover-red btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseExample1" aria-expanded="false" aria-controls="collapseExample1">Nonrenewable energy (fossil fuels, nuclear, etc.)</button>
+    <div class="collapse" id="collapseExample1">
+      <div class="card card-body">
+        Nonrenewable energy will soon disappear if we keep using it. Try switching to renewable energy - it may be more expensive, but it will be worth it in the long run to splurge for solar panels!
+      </div>
+    </div>
+    <button class="w3-btn w3-hover-orange btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseExample2" aria-expanded="false" aria-controls="collapseExample2">Renewable energy (wind, geothermal, etc.).</button>
+    <div class="collapse" id="collapseExample2">
+      <div class="card card-body">
+      That's great! Stay sustainable~!
+      </div>
+    </div>
+  </p>
 
-<form>
-  <input type="radio" name="options" value="fossil fuel energy" checked>Fossil fuel energy<br>
-  <input type="radio" name="options" value="wind energy">Wind energy<br>
-  <input type="radio" name="options" value="Solar power">Solar power<br>
-   <input type="radio" name="options"value="Wind power">Wind power<br>
-</form>
+  <p>
+    <h2>About how many lights do you have on at your home?</h2>
+    <button class="w3-btn w3-hover-yellow btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseExample4" aria-expanded="false" aria-controls="collapseExample4">All of them.</button>
+    <div class="collapse" id="collapseExample4">
+      <div class="card card-body">
+        You don't need to leave on every light in your house! Turn off the lights that are on in the rooms that you're not occupying at the moment. This will save energy, but it will also save you a lot of money!
+      </div>
+    </div>
+    <button class="w3-btn w3-hover-green btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseExample5" aria-expanded="false" aria-controls="collapseExample5">No.</button>
+    <div class="collapse" id="collapseExample5">
+      <div class="card card-body">
+        Good start! Turn off the lights that are in the rooms you aren't using, or only leave one light on in one room at a time to conserve energy.
+      </div>
+    </div>
+  
+  <button class="w3-btn w3-hover-blue btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseExample5" aria-expanded="false" aria-controls="collapseExample5">None of them.</button>
+    <div class="collapse" id="collapseExample5">
+      <div class="card card-body">
+        That's great! Stay sustainable~!
+      </div>
+    </div>
 
+  </p>
+
+  <p>
+    <h2>What kind of lightbulbs do you use?<h2>
+    <button class="w3-btn w3-hover-purple btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseExample6" aria-expanded="false" aria-controls="collapseExample6">INcandescent.</button>
+    <div class="collapse" id="collapseExample6">
+      <div class="card card-body">
+       Incandescent bulbs are the least sustainable kind of bulbs. They don't last very long - it may be better to switch to flourescent or LED lights.
+      </div>
+    </div>
+    <button class="w3-btn w3-hover-pink btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseExample7" aria-expanded="false" aria-controls="collapseExample7">Halogens.</button>
+    <div class="collapse" id="collapseExample7">
+      <div class="card card-body">
+        Great start! You might want to start thinking about replacing your lights to flourescent bulbs.
+      </div>
+    </div>
+    <button class="w3-btn w3-hover-white btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseExample8" aria-expanded="false" aria-controls="collapseExample8">Flourescents.</button>
+    <div class="collapse" id="collapseExample8">
+      <div class="card card-body">
+        Great start! You might want to start thinking about replacing your lights to LED bulbs.
+      </div>
+    </div>
+      <button class="w3-btn w3-hover-black btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseExample8" aria-expanded="false" aria-controls="collapseExample8">LEDs.</button>
+    <div class="collapse" id="collapseExample8">
+      <div class="card card-body">
+        That's great! Stay sustainable~!
+      </div>
+    </div>
+  </p>
+
+
+</div>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </body>
 </html>
-  </p>
-
-  <p>
-    <h2>Does your house use electricty?</h2>
-<form>
-  <input type="radio" name="options" value="yes" checked>Yes<br>
-  <input type="radio" name="options" value="no" checked>No<br>
-
-</form>
-  </p>
-
-
-  <p>
-    <h2>About how many lights do you have at your home?</h2>
-    <form>
-      <input type="radio" name="options" value="About 3 " checked>About 3 <br>
-      <input type="radio" name="options" value="About 4 or 5">About 4 or 5<br>
-      <input type="radio" name="options" value="More then 5">More than 5<br>
-
-    </form>
-    <p>
-
-    <h2> Should you be concern about what energy you Should use?</h2>
-      <form>
-        <input type="radio" name="options" value="Very concern " checked>Very concern <br>
-        <input type="radio" name="options" value="somwhat concern">somewhat concern<br>
-        <input type="radio" name="options" value="Not concern at all">Not concern at all<br>
-
-  <form>
-
-    </p>
-  </body>
-  </html>
