@@ -1,20 +1,76 @@
 .background{
-  background-image : url(https://static.vecteezy.com/system/resources/previews/000/242/301/original/vector-abstract-green-texture-background.jpg);
+  background-image:url(https://armory.visualsoldiers.com/wp-content/uploads/2019/05/Pur-CSS-Rain.gif);
 }
 
-h1,.img,h4{
+.crimson-text{
+  font-family: 'Crimson Text', serif;
+}
+.dancing-script{
+  font-family: 'Dancing Script', cursive;
+}
+.barlow-condensed{
+  font-family: 'Barlow Condensed', sans-serif;
+}
+.asap{
+  font-family: 'Asap', sans-serif;
+}
+.questrial{
+  font-family: 'Questrial', sans-serif;
+}
+.amatic-sc{
+  font-family: 'Amatic SC', cursive;
+}
+.news-cycle{
+  font-family: 'News Cycle', sans-serif;
+}
+.lexend{
+  font-family: 'Lexend Giga', sans-serif;
+}
+
+.long-cang{
+  font-family: 'Long Cang', cursive;
+}
+.righteous{
+  font-family: 'Righteous', cursive;
+}
+.kanit{
+  font-family: 'Kanit', sans-serif;
+}
+
+h1,.center{
   padding: 8px;
   text-align: center;
   background: #;
   color: black;
 }
+
+.w3-btn {
+  width:150px;
+  height:50px;
+}
+
+.fun-fact{
+  color:white;
+  padding: 8px;
+  text-align: center;
+  background-color:pink;
+  font-size: 18px;
+
+}
+
+.pink{
+  background-color:pink;
+}
+
 ul {
+  position: sticky;
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
   background-color: #333;
-  position: sticky;
+
+
 }
 
 li {
@@ -43,4 +99,9 @@ li {
 
 li:last-child {
   border-right: none;
+}
+
+.btn{
+  background-color:Transparent!important;
+  border:none!important;
 }
