@@ -1,56 +1,5 @@
 .background{
-  background-image : url(https://static.vecteezy.com/system/resources/previews/000/242/301/original/vector-abstract-green-texture-background.jpg);
-}
-
-h1,.img,h4{
-  padding: 8px;
-  text-align: center;
-  background: #;
-  color: black;
-}
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: #333;
-  position: sticky;
-}
-
-li {
-  float: left;
-}
-
-li a {
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-}
-
-li a:hover {
-  background-color: gray;
-}
-
-.active {
-  background-color: gray;
-}
-
-li {
-  border-right: 1px solid white;
-}
-
-li:last-child {
-  border-right: none;
-}
-.background{
-  background-image:url()
-}
-
-.background{
   background-image:url(https://armory.visualsoldiers.com/wp-content/uploads/2019/05/Pur-CSS-Rain.gif);
-
 }
 
 .crimson-text{
@@ -88,8 +37,6 @@ li:last-child {
   font-family: 'Kanit', sans-serif;
 }
 
-
-
 h1,.center{
   padding: 8px;
   text-align: center;
@@ -97,11 +44,18 @@ h1,.center{
   color: black;
 }
 
+.w3-btn {
+  width:150px;
+  height:50px;
+}
+
 .fun-fact{
   color:white;
   padding: 8px;
   text-align: center;
   background-color:pink;
+  font-size: 18px;
+
 }
 
 .pink{
@@ -109,12 +63,14 @@ h1,.center{
 }
 
 ul {
+  position: sticky;
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
   background-color: #333;
-  position: sticky;
+
+
 }
 
 li {
@@ -145,70 +101,7 @@ li:last-child {
   border-right: none;
 }
 
-
-/* Add a black background color to the top navigation */
-.topnav {
-  background-color: #333;
-  overflow: hidden;
-}
-
-/* Style the links inside the navigation bar */
-.topnav a {
-  float: left;
-  color: #f2f2f2;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
-}
-
-/* Change the color of links on hover */
-.topnav a:hover {
-  background-color: #ddd;
-  color: black;
-}
-
-/* Add a color to the active/current link */
-.topnav a.active {
-  background-color: #4CAF50;
-  color: white;
-}
-
-
-
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: #333;
-  position: sticky;
-}
-
-li {
-  float: left;
-}
-
-li a {
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-}
-
-li a:hover {
-  background-color: gray;
-}
-
-.active {
-  background-color: gray;
-}
-
-li {
-  border-right: 1px solid white;
-}
-
-li:last-child {
-  border-right: none;
+.btn{
+  background-color:Transparent!important;
+  border:none!important;
 }
