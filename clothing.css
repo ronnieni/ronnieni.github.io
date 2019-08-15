@@ -44,8 +44,9 @@ h1,.center{
   color: black;
 }
 
-.w3-button {
-  width:150px
+.w3-btn {
+  width:150px;
+  height:50px;
 }
 
 .fun-fact{
@@ -53,6 +54,7 @@ h1,.center{
   padding: 8px;
   text-align: center;
   background-color:pink;
+  font-size: 18px;
 
 }
 
@@ -61,12 +63,14 @@ h1,.center{
 }
 
 ul {
+  position: sticky;
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
   background-color: #333;
-  position: sticky;
+
+
 }
 
 li {
@@ -96,3 +100,9 @@ li {
 li:last-child {
   border-right: none;
 }
+
+.btn{
+  background-color:Transparent!important;
+  border:none!important;
+}
+
